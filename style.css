@@ -506,7 +506,7 @@ p.card-text svg {
 }
 .copy_right {
     background: #122f34;
-    height: 60px;
+    height: auto;
 }
 .copy_right p {
     color: #fff;
@@ -515,8 +515,10 @@ p.card-text svg {
     font-family: 'Roboto-Regular';
 }
 .text_copy {
+    color: #fff;
     line-height: 60px;
     padding: 0px 30px;
+    text-align: center;
 }
 .custom_dropdown .dropdown-toggle::before{
     display: none;
@@ -547,6 +549,12 @@ p.card-text svg {
     background-color: #FFCE32;
     width: 30%;
     padding-left: 5%;
+}
+
+.footer_img {
+    margin: 0 auto;
+    width: 5%;
+    padding-top: 10px;
 }
 
 @media screen  and (max-width:1366px) {
